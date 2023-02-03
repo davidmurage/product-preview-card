@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin: 30px auto;
+    padding: 0 30px;
+}
+
+.grid{
+    max-width: 600px;
+    display: grid;
+    background-color:hsl(0, 0%, 100%) ;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 14px;
+    overflow: hidden;
+
+}
+
+.image img{
+    max-width: 100%;
+    display: inherit;
+}
+
+.card-content{
+    padding:35px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2.cat{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 13px;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+}
+
+h1.name{
+    font-family: 'Fraunces', serif;
+    font-size: 34px;
+    line-height: 1em;
+    color:  hsl(212, 21%, 14%);
+}
+
+p.description{
+    color: hsl(228, 12%, 48%);
+    line-height: 1.6rem;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+}
+
+.new-price{
+    font-family: 'Fraunces', serif;
+    color:  hsl(158, 36%, 37%);
+    font-size: 25px;
+    padding-right: 25px;
+    font-weight: 700;
+}
+
+.old-price{
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+button.btn{
+    background-color:  hsl(158, 36%, 37%);
+    border: none;
+    padding: 12px 2rem;
+    border-radius: 12px;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color .3s ease;
+    
+    
+}    
+
+button.btn img{
+    padding-right: 7px;
+
+}
+
+button.btn:hover{
+    background-color: hsl(158, 36%, 23%);
+}
+
+@media only screen and (max-width: 628px) {
+    
+    .grid{
+        grid-template-columns: 1fr;
+    }
+
+    .image img{
+        max-height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+
+    .card-content{
+        display: block;
+    }
+
+    h2.cat, h1.name, p.description, .price{
+        padding-bottom: 23px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 375px){
+    .container{
+        margin: 15px auto;
+        padding: 0 15px;
+    }
+
+    .images img{
+        max-height: 290px;
+    }
+
+    .card-content{
+        padding: 24px;
+    }
+
+    h2.cat, h1.name, p.description, .price{
+        padding-bottom: 16px;
+    }
+
+    h1.name{
+        font-size: 28px;
+    }
+
+    p.description{
+        font-size: 12px;
+    }
+
+    .new-price{
+        font-size: 28px;
+    }
+
+    button.btn img{
+        padding: 5px 60px;
+        font-size: 13px;
+    }
+
+}
