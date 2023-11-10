@@ -7,7 +7,7 @@
 body{
     background-color: hsl(30, 38%, 92%);
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@ body{
     display: grid;
     background-color:hsl(0, 0%, 100%) ;
     grid-template-columns: 1fr 1fr;
-    border-radius: 14px;
+    border-radius: 15px;
     overflow: hidden;
 
 }
@@ -35,7 +35,7 @@ body{
 }
 
 .card-content{
-    padding:35px ;
+    padding:36px ;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -44,14 +44,14 @@ body{
 h2.cat{
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 13px;
+  font-size: 15px;
   color: hsl(228, 12%, 48%);
   font-weight: 500;
 }
 
 h1.name{
     font-family: 'Fraunces', serif;
-    font-size: 34px;
+    font-size: 35px;
     line-height: 1em;
     color:  hsl(212, 21%, 14%);
 }
@@ -82,7 +82,7 @@ p.description{
 button.btn{
     background-color:  hsl(158, 36%, 37%);
     border: none;
-    padding: 12px 2rem;
+    padding: 13px 2rem;
     border-radius: 12px;
     color: hsl(0, 0%, 100%);
     font-size: 16px;
@@ -94,7 +94,7 @@ button.btn{
 }    
 
 button.btn img{
-    padding-right: 7px;
+    padding-right: 8px;
 
 }
 
@@ -120,7 +120,7 @@ button.btn:hover{
     }
 
     h2.cat, h1.name, p.description, .price{
-        padding-bottom: 23px;
+        padding-bottom: 24px;
     }
 
     
@@ -137,7 +137,7 @@ button.btn:hover{
     }
 
     .card-content{
-        padding: 24px;
+        padding: 25px;
     }
 
     h2.cat, h1.name, p.description, .price{
@@ -145,11 +145,11 @@ button.btn:hover{
     }
 
     h1.name{
-        font-size: 28px;
+        font-size: 29px;
     }
 
     p.description{
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .new-price{
