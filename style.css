@@ -24,7 +24,7 @@ body{
     display: grid;
     background-color:hsl(0, 0%, 100%) ;
     grid-template-columns: 1fr 1fr;
-    border-radius: 15px;
+    border-radius: 14px;
     overflow: hidden;
 
 }
@@ -35,7 +35,7 @@ body{
 }
 
 .card-content{
-    padding:35px ;
+    padding:34px ;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -44,7 +44,7 @@ body{
 h2.cat{
   text-transform: uppercase;
   letter-spacing: 2.9px;
-  font-size: 15px;
+  font-size: 14px;
   color: hsl(228, 12%, 48%);
   font-weight: 500;
 }
