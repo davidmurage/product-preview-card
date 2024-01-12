@@ -44,14 +44,14 @@ body{
 h2.cat{
   text-transform: uppercase;
   letter-spacing: 2.9px;
-  font-size: 14px;
+  font-size: 15px;
   color: hsl(228, 12%, 48%);
   font-weight: 500;
 }
 
 h1.name{
     font-family: 'Fraunces', serif;
-    font-size: 35px;
+    font-size: 36px;
     line-height: 1em;
     color:  hsl(212, 21%, 14%);
 }
@@ -69,7 +69,7 @@ p.description{
 .new-price{
     font-family: 'Fraunces', serif;
     color:  hsl(158, 36%, 37%);
-    font-size: 24px;
+    font-size: 25px;
     padding-right: 24px;
     font-weight: 700;
 }
