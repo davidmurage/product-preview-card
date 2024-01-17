@@ -24,7 +24,7 @@ body{
     display: grid;
     background-color:hsl(0, 0%, 100%) ;
     grid-template-columns: 1fr 1fr;
-    border-radius: 15px;
+    border-radius: 14px;
     overflow: hidden;
 
 }
@@ -44,14 +44,14 @@ body{
 h2.cat{
   text-transform: uppercase;
   letter-spacing: 2.9px;
-  font-size: 15px;
+  font-size: 14px;
   color: hsl(228, 12%, 48%);
   font-weight: 500;
 }
 
 h1.name{
     font-family: 'Fraunces', serif;
-    font-size: 36px;
+    font-size: 35px;
     line-height: 1em;
     color:  hsl(212, 21%, 14%);
 }
